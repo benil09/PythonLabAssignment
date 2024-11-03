@@ -7,3 +7,20 @@
        e. “Mera Bharat Mahan”
 
 """
+
+S1="Maha Bharat"
+
+a=S1.swapcase()
+print(a)
+
+b=S1[5:]
+print(b)
+
+c=S1[5:]*3
+print(c)
+
+d=S1.replace("Maha","Mera")
+print(d)
+
+e=S1.replace("Maha","Mera")+ " " + "Mahan"
+print(e)
